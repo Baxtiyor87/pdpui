@@ -19,10 +19,17 @@ class _HomePageState extends State<HomePage> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: const [
-            Text('User ',style: TextStyle(color: Colors.red, fontSize: 36),),
-             Text(
-              'Interface ',
-              style: TextStyle(color: Colors.green, fontSize: 36),
+            SizedBox(
+              child: Text(
+                'User ',
+                style: TextStyle(color: Colors.red, fontSize: 36),
+              ),
+            ),
+            SizedBox(
+              child: Text(
+                'Interface',
+                style: TextStyle(color: Colors.green, fontSize: 36),
+              ),
             )
           ],
         ),
