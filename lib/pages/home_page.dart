@@ -18,15 +18,17 @@ class _HomePageState extends State<HomePage> {
       body:  Center(
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const [
-            SizedBox(
-              child: Text(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(5),
+              child: const Text(
                 'User',
                 style: TextStyle(color: Colors.red, fontSize: 36),
               ),
             ),
-            SizedBox(
-              child: Text(
+            Container(
+              padding: const EdgeInsets.all(5),
+              child: const Text(
                 'Interface',
                 style: TextStyle(color: Colors.green, fontSize: 36),
               ),
