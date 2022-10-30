@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
           children: const [
             SizedBox(
               child: Text(
-                'User ',
+                'User',
                 style: TextStyle(color: Colors.red, fontSize: 36),
               ),
             ),
